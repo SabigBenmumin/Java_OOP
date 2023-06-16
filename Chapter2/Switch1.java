@@ -1,4 +1,4 @@
-public class Switch {
+public class Switch1 {
     public static void main(String[] args){
         int n;
         double d;

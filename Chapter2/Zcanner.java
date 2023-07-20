@@ -1,9 +1,14 @@
 import java.util.Scanner;
+/*
+ * import เป็นการบอกให้ compiler รู้ว่าจะต้องนำ class มาจากที่ไหน
+ * จาก import java.util.Scanner;
+ * เป็นการ import คลาส Scanner มาจาก util ซึ่ง util อยู่ใน package ที่ชื่อว่า java
+ */
 
 public class Zcanner {
     public static void main(String[] args){
         //this program let show you have know about how build scanner line with keybourd
-        Scanner keybourd = new Scanner(System.in); 
+        Scanner keyboard = new Scanner(System.in); 
         String name;
         int height;
         double weight;
@@ -28,11 +33,12 @@ public class Zcanner {
          *      |--nextLine() except String data type
          */
         System.out.print("what's your name: ");
-        name = keybourd.nextLine();
+        name = keyboard.nextLine();
         System.out.print("how tall are you: ");
-        height = keybourd.nextInt();
+        height = keyboard.nextInt();
         System.out.print("how much your weight: ");
-        weight = keybourd.nextDouble();
+        weight = keyboard.nextDouble();
+        keyboard.close();
 
         System.out.println("My name is: "+ name);
         System.out.println("My toll is: "+ height);

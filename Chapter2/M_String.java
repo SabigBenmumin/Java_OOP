@@ -5,7 +5,7 @@ public class M_String {
         int l = nums.length();
         uppername = my_name.toUpperCase();
         lowername = my_name.toLowerCase();
-        System.out.println("print num ber from nums with index: "+num);
+        System.out.println("print number from nums with index: "+num);
         System.out.println("print length of nums with length method: "+l);
         System.out.println("print my_name: "+my_name);
         System.out.println("print my_name in lower case:"+ lowername);
